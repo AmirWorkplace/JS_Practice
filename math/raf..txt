@@ -1,0 +1,171 @@
+  // for (var i = 0; i <= 10; i++) {
+  //   console.log(randomNum());
+  //   // randomNum();
+
+  // }
+  //   let arr = function(){
+  //     for(var m = 0; m <= 10; m++){
+  //       // console.log(randomNum());
+  //       return 'randomNum()'[i];
+  //     }
+  //   }
+  //   console.log(arr);
+  // // var z = 0, arra = [];
+  // // while(z < 10){
+  // //   var a = randomNum();
+  // //   a++;
+  // //   console.log(a);
+  // //   // randomNumaa()++;
+  // // }
+/* 
+
+console.log(" ");
+
+let arr = [100, 100];
+
+
+function getRandonNumber(){
+  function randomNum() {
+    let ranNo1 = (Math.random() * 20) + (Math.random() * 5) + 5 + (Math.random() * 50);
+
+    let ranNo2 = (Math.random() * 10) + (Math.random() * 15) + (2 ** 2) + (Math.random() * 3);
+
+    let ranNum1 = Math.trunc(ranNo1);
+    let ranNum2 = Math.trunc(ranNo2);
+    // console.log(ranNum);
+
+    let getNum = (ranNum1 <= 30 ? ranNum1 = (ranNum1 + ranNum2) : ranNum1 = ranNum1);
+    return getNum;
+  }
+
+  // function x(){    } 
+
+    for (var i = 0; i <= 10; i++) {
+      randomNum();
+    }
+
+//   let arr = [];
+//   arr = [x()];
+// console.log(x());
+
+  return;
+}
+
+getRandonNumber();
+
+*/
+
+/* 
+const
+  step = 10,
+  keys = ["timestamp", "size", "fees", "cost"],
+  result = Object.fromEntries(keys.map(k => [k, []]));
+
+for (let i = 0; i < step.lenght; i += step) {
+  keys.forEach(key => 
+    result[key].push(size[i][key])
+  );
+}
+
+console.log(step, keys, result);
+
+
+
+
+
+
+
+function Queue() {
+  this.listeners = [];
+  this.queue = [];
+}
+
+Queue.prototype = {
+  shift: function (cb) {
+    this.queue.length > 0 ? cb(this.queue.shift()) : this.listeners.push(cb);
+  },
+  push: function (value) {
+    if (this.listeners.length > 0) {
+      this.listeners.shift()(value);
+      return;
+    }
+
+    this.queue.push(value);
+  }
+}
+
+
+var queue = new Queue();
+
+// 'some value'
+queue.shift(function (value) { console.log(value); });
+
+setTimeout(function () {
+  queue.push('some value');
+  queue.push('another value');
+
+  // 'another value'
+  queue.shift(function (value) { console.log(value); });
+}, 3000); */
+
+
+/* for(var c=1;c<=10;c++){console.log(`the result : ${c}`);}
+
+// এখন এই দশটা ফেচ করে ইলিমেন্ট কে একটা Array এর ভিতরে ঢুকাবো কিভাবে! কেউ কি বলতে পারবেন ! */
+
+
+  // let ok = new x();
+  // console.log([randomNum(), randomNum(), randomNum(), randomNum(), randomNum(), randomNum(), randomNum()]);
+  // createDiv.innerText = getRandonNumber();
+  // let a = getRandonNumber();
+  // a.forEach((get) => {
+  //     console.log(get);
+  // });
+  // console.log(getRandonNumber());
+
+  let x = getRandonNumber();
+function m(){
+  for (var k = 1; k < 10; k++) {
+      x;
+    console.log(x + ',');
+    y = x + ',';
+  }
+  
+  console.log(`[${y}]`)
+}
+  let ar = [x,x,x,x,x,x,x,];
+  console.log(ar);
+div[0].innerHTML = m();
+
+
+// let abc = getRandonNumber();
+// console.log(abc);
+
+/* function createDivElements() {
+
+  var count = 0;
+  var amount = 10;
+
+  for (count = 0; count <= amount; count++) {
+    document.querySelector('.createDiv').appendChild(document.createElement('div'));
+  }
+}
+
+
+createDivElements();
+console.log(' ');
+
+const div = document.querySelectorAll('.createDiv div');
+
+// div.forEach((get) => {
+//   let one = getRandonNumber();
+//   get.innerText = `${one}`;
+// });
+
+
+let star = 'Amir';
+for (let i = 0; i < div.length; i++) {
+  const element = div[i];
+  console.log(element);
+  
+} */

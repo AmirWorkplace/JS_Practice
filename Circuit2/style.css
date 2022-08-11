@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: "Fira Code", sans-sherif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #282c35;
+  overflow: hidden;
+}
+
+section.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+}

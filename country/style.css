@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: "Fira Code", sans-sherif;
+}
+
+body {
+  background: #111711;
+  width: 100%;
+  height: 100%;
+}
+
+section.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.country__data footer strong {
+  color: #f00f00;
+}
