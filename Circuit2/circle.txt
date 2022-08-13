@@ -1,0 +1,87 @@
+< !DOCTYPE html>
+< html lang="en">
+  < head>
+    < meta charset="UTF-8" />
+    < meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    < meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    < title>Country Info:</>
+    < link rel="stylesheet" href="style.css" />
+ 
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: "Fira Code", sans-sherif;
+      }
+
+      body {
+        width: 100%;
+        height: 100%;
+        background: #282c35;
+        overflow: hidden;
+      }
+
+      section.body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #ffffff;
+        justify-content: center;
+      }
+
+      .circle {
+        height: 200px;
+        width: 75px;
+        margin: 10px 0;
+        background: #282c35;
+        position: relative;
+        animation: Animate 4s linear infinite;
+      }
+
+      .circle::before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        inset: 12.5px;
+        left: -45px;
+        top: 25px;
+        background: var(--clr2);
+        z-index: 1;
+      }
+
+      .circle::after {
+        content: "";
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        border: 35px solid var(--clr1);
+        border-radius: 50%;
+        background: #282c35;
+        left: -75px;
+        top: -10px;
+      }
+
+      @keyframes Animate {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+    </style>
+  < /head>
+  < body>
+    <section class="body">
+      <div class="circle" style="--clr1: #000; --clr2: #fff"></div>
+    </section>
+  < /body>
+< /html>

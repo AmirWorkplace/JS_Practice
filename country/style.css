@@ -20,6 +20,19 @@ section.body {
   justify-content: center;
 }
 
+.country {
+  opacity: 1;
+}
+
+.country.opacity {
+  opacity: 1;
+}
+
 .country__data footer strong {
   color: #f00f00;
+}
+
+.country__img {
+  width: 200px;
+  height: 120px;
 }
